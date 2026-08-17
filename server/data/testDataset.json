@@ -1,0 +1,140 @@
+[
+  {
+    "id": "TC-001",
+    "category": "Course Inquiry",
+    "expectedIntent": "course_inquiry",
+    "query": "What courses do you offer for web development and what is the fee?",
+    "context": [],
+    "expectedKeywords": ["Full-Stack", "Web Development", "₹4,999", "12 Weeks"],
+    "expectedRoute": "/courses"
+  },
+  {
+    "id": "TC-002",
+    "category": "Internship Inquiry",
+    "expectedIntent": "internship_inquiry",
+    "query": "Can I do a remote Python internship at VaultOfCode?",
+    "context": [],
+    "expectedKeywords": ["Python Software Development", "Virtual", "1 Month", "2 Months", "3 Months"],
+    "expectedRoute": "/internships"
+  },
+  {
+    "id": "TC-003",
+    "category": "Training Inquiry",
+    "expectedIntent": "training_inquiry",
+    "query": "Do you provide industrial training programs with mentorship?",
+    "context": [],
+    "expectedKeywords": ["Live Mentored", "hands-on", "industrial training", "courses"],
+    "expectedRoute": "/courses"
+  },
+  {
+    "id": "TC-004",
+    "category": "Workshop Inquiry",
+    "expectedIntent": "workshop_inquiry",
+    "query": "Are there any weekend AI workshops coming up?",
+    "context": [],
+    "expectedKeywords": ["Building GenAI Apps", "Gemini", "₹299", "Weekend"],
+    "expectedRoute": "/workshops"
+  },
+  {
+    "id": "TC-005",
+    "category": "Certificate Query",
+    "expectedIntent": "certificate_query",
+    "query": "When will I get my internship completion certificate?",
+    "context": [],
+    "expectedKeywords": ["3 to 5 business days", "registered email", "project review"],
+    "expectedRoute": "/verify-certificate"
+  },
+  {
+    "id": "TC-006",
+    "category": "Certificate Verification",
+    "expectedIntent": "certificate_verification",
+    "query": "How can I verify my certificate credential VOC-2026-8921?",
+    "context": [],
+    "expectedKeywords": ["Verify Credentials", "Certificate ID", "Verification page"],
+    "expectedRoute": "/verify-certificate"
+  },
+  {
+    "id": "TC-007",
+    "category": "Offer Letter Query",
+    "expectedIntent": "offer_letter_query",
+    "query": "I haven't received my internship offer letter yet.",
+    "context": [],
+    "expectedKeywords": ["48 hours", "Spam folder", "Offer Letter Portal", "WhatsApp"],
+    "expectedRoute": "/offer-letter"
+  },
+  {
+    "id": "TC-008",
+    "category": "Enrollment Query",
+    "expectedIntent": "enrollment_query",
+    "query": "How do I enroll in a course and what are the steps?",
+    "context": [],
+    "expectedKeywords": ["Apply Now", "Browse Courses", "fill required profile", "payment"],
+    "expectedRoute": "/courses"
+  },
+  {
+    "id": "TC-009",
+    "category": "Payment Query",
+    "expectedIntent": "payment_query",
+    "query": "What payment methods are supported and what is your refund policy?",
+    "context": [],
+    "expectedKeywords": ["UPI", "Razorpay", "100% full refund", "7 days"],
+    "expectedRoute": "/courses"
+  },
+  {
+    "id": "TC-010",
+    "category": "Website Navigation",
+    "expectedIntent": "website_navigation",
+    "query": "Where is the verification page located on the site?",
+    "context": [],
+    "expectedKeywords": ["/verify-certificate", "Verification"],
+    "expectedRoute": "/verify-certificate"
+  },
+  {
+    "id": "TC-011",
+    "category": "Technical Support",
+    "expectedIntent": "technical_support",
+    "query": "I am having trouble logging into my student dashboard.",
+    "context": [],
+    "expectedKeywords": ["Forgot Password", "reset your password", "/login"],
+    "expectedRoute": "/support"
+  },
+  {
+    "id": "TC-012",
+    "category": "Human Support",
+    "expectedIntent": "human_support",
+    "query": "I want to talk to a human support agent on WhatsApp.",
+    "context": [],
+    "expectedKeywords": ["WhatsApp", "Human Support", "+91 98765 43210"],
+    "expectedRoute": "/support"
+  },
+  {
+    "id": "TC-013",
+    "category": "General Query",
+    "expectedIntent": "general_query",
+    "query": "What is VaultOfCode and where are your working hours?",
+    "context": [],
+    "expectedKeywords": ["VaultOfCode", "Monday to Friday", "9:00 AM"],
+    "expectedRoute": "/"
+  },
+  {
+    "id": "TC-014",
+    "category": "Unknown / Anti-Hallucination",
+    "expectedIntent": "unknown",
+    "query": "Can you book me a flight ticket to Paris for next week?",
+    "context": [],
+    "expectedKeywords": ["not able to find reliable information", "VaultOfCode courses"],
+    "expectedRoute": "/support"
+  },
+  {
+    "id": "TC-015",
+    "category": "Context Retention",
+    "expectedIntent": "certificate_query",
+    "query": "Certificate.",
+    "context": [
+      { "role": "user", "text": "I completed an internship." },
+      { "role": "assistant", "text": "Great! What would you like help with regarding your internship?" }
+    ],
+    "expectedKeywords": ["Internship Completion Certificate", "3 to 5 business days"],
+    "expectedRoute": "/verify-certificate"
+  }
+]

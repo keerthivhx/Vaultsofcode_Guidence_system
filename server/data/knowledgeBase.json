@@ -1,0 +1,173 @@
+{
+  "platform": {
+    "name": "VaultOfCode",
+    "description": "VaultOfCode is a premier hands-on software development education and virtual internship platform designed to empower students with industry-relevant skills.",
+    "website": "https://vaultofcode.com",
+    "contactEmail": "support@vaultofcode.com",
+    "whatsAppSupport": "+91 98765 43210",
+    "workingHours": "Monday to Friday: 9:00 AM - 7:00 PM IST, Saturday: 10:00 AM - 4:00 PM IST",
+    "location": "Bengaluru, Karnataka, India"
+  },
+  "courses": [
+    {
+      "id": "fullstack_webdev",
+      "title": "Full-Stack Web Development Mastery",
+      "category": "Web Development",
+      "duration": "12 Weeks",
+      "fee": "₹4,999",
+      "mode": "Live Online & Self-Paced Projects",
+      "techStack": ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Node.js", "Express", "MongoDB"],
+      "highlights": ["10+ Real-world Projects", "Dedicated Mentor Support", "Guaranteed Certificate"],
+      "route": "/courses"
+    },
+    {
+      "id": "python_ai_ml",
+      "title": "AI & Machine Learning with Python",
+      "category": "Artificial Intelligence",
+      "duration": "10 Weeks",
+      "fee": "₹5,999",
+      "mode": "Live Online & Hands-on Labs",
+      "techStack": ["Python", "NumPy", "Pandas", "Scikit-Learn", "PyTorch", "Gemini API"],
+      "highlights": ["CapStone AI Project", "Model Deployment", "Industry Certificate"],
+      "route": "/courses"
+    },
+    {
+      "id": "data_science",
+      "title": "Data Science & Business Analytics",
+      "category": "Data Science",
+      "duration": "8 Weeks",
+      "fee": "₹4,499",
+      "mode": "Self-Paced with Weekly Q&A",
+      "techStack": ["SQL", "Python", "PowerBI", "Tableau", "Statistics"],
+      "highlights": ["Real Financial & Healthcare Datasets", "Resume Review"],
+      "route": "/courses"
+    },
+    {
+      "id": "java_backend",
+      "title": "Java Backend & Microservices",
+      "category": "Software Engineering",
+      "duration": "10 Weeks",
+      "fee": "₹4,999",
+      "mode": "Live Mentored Sessions",
+      "techStack": ["Java 17", "Spring Boot", "PostgreSQL", "Docker", "REST APIs"],
+      "highlights": ["Microservices Architecture Project", "Code Reviews"],
+      "route": "/courses"
+    },
+    {
+      "id": "cybersecurity",
+      "title": "Cyber Security & Ethical Hacking Essentials",
+      "category": "Cyber Security",
+      "duration": "6 Weeks",
+      "fee": "₹3,999",
+      "mode": "Hands-on Practical Labs",
+      "techStack": ["Linux", "Wireshark", "Metasploit", "Nmap", "Web App Security"],
+      "highlights": ["Penetration Testing Labs", "Vulnerability Assessments"],
+      "route": "/courses"
+    }
+  ],
+  "internships": [
+    {
+      "id": "web_dev_intern",
+      "title": "Web Development Virtual Internship",
+      "domain": "Web Development",
+      "durations": ["1 Month", "2 Months", "3 Months"],
+      "mode": "100% Virtual / Work from Anywhere",
+      "perks": ["Verified Completion Certificate", "Offer Letter in 48 Hours", "Project Guidance", "Top Performer LOR"],
+      "fee": "Free application (₹499 portal & verification fee)",
+      "stipend": "Performance-based stipend awarded to top 5% interns in each cohort.",
+      "route": "/internships"
+    },
+    {
+      "id": "ai_ml_intern",
+      "title": "AI & Machine Learning Internship",
+      "domain": "AI / ML",
+      "durations": ["1 Month", "2 Months", "3 Months"],
+      "mode": "100% Virtual / Work from Anywhere",
+      "perks": ["Hands-on LLM & Computer Vision Projects", "Offer Letter", "Verified Certificate"],
+      "fee": "Free application (₹499 portal & verification fee)",
+      "stipend": "Performance-based stipend for top performers.",
+      "route": "/internships"
+    },
+    {
+      "id": "python_dev_intern",
+      "title": "Python Software Development Internship",
+      "domain": "Python",
+      "durations": ["1 Month", "2 Months", "3 Months"],
+      "mode": "100% Virtual",
+      "perks": ["Automation Scripts", "Django/FastAPI Backend Projects", "Certificate"],
+      "fee": "Free application (₹499 portal & verification fee)",
+      "stipend": "Performance-based stipend.",
+      "route": "/internships"
+    },
+    {
+      "id": "java_intern",
+      "title": "Java Backend Development Internship",
+      "domain": "Java Backend",
+      "durations": ["1 Month", "2 Months", "3 Months"],
+      "mode": "100% Virtual",
+      "perks": ["Enterprise Application Building", "Offer Letter", "Certificate"],
+      "fee": "Free application (₹499 portal & verification fee)",
+      "stipend": "Performance-based stipend.",
+      "route": "/internships"
+    }
+  ],
+  "workshops": [
+    {
+      "id": "genai_workshop",
+      "title": "Building GenAI Apps with Gemini & React",
+      "type": "Weekend Intensive Workshop",
+      "duration": "2 Days (Sat-Sun, 4 Hours total)",
+      "fee": "₹299",
+      "includes": ["Live Coding", "Source Code", "Participation Certificate"],
+      "route": "/workshops"
+    },
+    {
+      "id": "react_masterclass",
+      "title": "Modern React & Next.js Architecture Masterclass",
+      "type": "1-Day Bootcamp",
+      "duration": "3 Hours",
+      "fee": "₹199",
+      "includes": ["State Management", "Deployment Guide", "Certificate"],
+      "route": "/workshops"
+    }
+  ],
+  "certificates": {
+    "types": [
+      "Course Completion Certificate",
+      "Internship Completion Certificate",
+      "Workshop Participation Badge",
+      "Excellence & Top Performer Award"
+    ],
+    "verificationProcess": "Navigate to the Certificate Verification page (/verify-certificate), enter your unique Certificate ID (e.g. VOC-2026-8921), and click 'Verify Credentials'.",
+    "deliveryTimeline": "Digital e-certificates are dispatched to your registered email address within 3 to 5 business days after passing project review.",
+    "supportRoute": "/verify-certificate"
+  },
+  "offerLetters": {
+    "issuance": "Offer letters are generated and emailed within 48 hours of successful internship enrollment.",
+    "verification": "Can be viewed and validated via the Offer Letter Portal at /offer-letter.",
+    "notReceivedHelp": "If you have not received your offer letter after 48 hours, check your Spam folder or contact our support team on WhatsApp.",
+    "supportRoute": "/offer-letter"
+  },
+  "enrollmentAndPayments": {
+    "enrollmentSteps": "1. Browse Courses or Internships. 2. Click 'Apply Now'. 3. Fill required profile details. 4. Complete payment. 5. Receive confirmation email & student dashboard login instantly.",
+    "paymentMethods": ["UPI (Google Pay, PhonePe, Paytm)", "Razorpay", "Credit/Debit Cards", "Net Banking"],
+    "refundPolicy": "We offer a 100% full refund policy within 7 days of course enrollment if you are not satisfied. Refund requests after 7 days or post certificate generation cannot be fulfilled.",
+    "supportRoute": "/courses"
+  },
+  "technicalSupport": {
+    "loginIssues": "To reset your password, click 'Forgot Password' on the login page (/login) or enter your registered email.",
+    "lmsIssues": "If video lectures or assignments fail to load, clear your browser cache/cookies or try Google Chrome.",
+    "submissionIssues": "Assignments must be submitted as a GitHub Repository URL or a zip file uploaded to your student portal.",
+    "supportRoute": "/support"
+  },
+  "websiteRoutes": [
+    { "name": "Home Page", "path": "/", "description": "Main VaultOfCode landing page and overview" },
+    { "name": "Courses", "path": "/courses", "description": "Explore all professional software engineering courses" },
+    { "name": "Internships", "path": "/internships", "description": "Apply for virtual domain-specific internships" },
+    { "name": "Workshops", "path": "/workshops", "description": "Weekend live bootcamps and AI hands-on sessions" },
+    { "name": "Verify Certificate", "path": "/verify-certificate", "description": "Validate VaultOfCode student credentials & certificates" },
+    { "name": "Offer Letter Portal", "path": "/offer-letter", "description": "Download and authenticate internship offer letters" },
+    { "name": "Support & Help Desk", "path": "/support", "description": "Contact technical help desk, FAQ & WhatsApp support" },
+    { "name": "Student Login", "path": "/login", "description": "Access LMS, lectures, and project submissions" }
+  ]
+}
